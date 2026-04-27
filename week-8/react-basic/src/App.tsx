@@ -13,10 +13,15 @@ function App() {
     <>
       <h1>React Basic</h1>
       <hr />
-      {profiles.map((profile) => {
-        const { id, name, hobby } = profile;
-        return <Profile key={id} name={name} hobby={hobby} />;
-      })}
+      {/* {profiles ? (
+        profiles.map((profile) => {
+          const { id, name, hobby } = profile;
+          return <Profile key={id} name={name} hobby={hobby} />;
+        })
+      ) : (
+        <p>No profiles available.</p>
+      )} */}
+      <Card name="Vincent" />
     </>
   );
 }

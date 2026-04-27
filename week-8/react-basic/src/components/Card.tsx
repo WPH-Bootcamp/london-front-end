@@ -1,11 +1,16 @@
 import React from "react";
+import CardChildren from "./CardChildren";
 
 type CardProps = {
-  children: React.ReactNode;
+  name: string;
 };
 
-function Card({ children }: CardProps) {
-  return <div>{children}</div>;
+function Card({ name }: CardProps) {
+  return (
+    <div>
+      <CardChildren name={name} />
+    </div>
+  );
 }
 
 export default Card;
