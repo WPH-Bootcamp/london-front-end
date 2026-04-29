@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 
 const ControllerInput = () => {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState<string>("");
+  const [password, setPassword] = useState<string>("");
 
-  const submitHandler = (e: any) => {
+  const submitHandler = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     //  console.log({
     //    email,
