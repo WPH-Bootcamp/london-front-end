@@ -5,10 +5,20 @@ const BasicState = () => {
 
   function addHandler() {
     console.log("Add Handler");
+    if (count >= 10) {
+      alert("Max 10");
+    } else {
+      setCount(count + 1);
+    }
   }
 
   function subHandler() {
     console.log("Sub Handler");
+    if (count <= 0) {
+      alert("Min 0");
+    } else {
+      setCount(count - 1);
+    }
   }
 
   return (
