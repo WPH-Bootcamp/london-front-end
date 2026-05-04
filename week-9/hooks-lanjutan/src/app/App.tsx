@@ -1,12 +1,14 @@
 import "./App.css";
-import Effect from "../components/Effect";
-import Memo from "../components/Memo";
+// import Effect from "../components/Effect";
+// import Memo from "../components/Memo";
+import Callback from "../components/Callback";
 
 function App() {
   return (
     <>
       {/* <Effect /> */}
-      <Memo />
+      {/* <Memo /> */}
+      <Callback />
     </>
   );
 }
