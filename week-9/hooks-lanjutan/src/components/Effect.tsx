@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useState, useEffect } from "react";
 
 // const Effect = () => {
 //   useEffect(() => {
@@ -18,7 +18,36 @@ import React, { useEffect } from "react";
 // export default Effect;
 
 const EffectStudyCase = () => {
-  return <div>EffectStudyCase</div>;
+  const [number, setNumber] = useState<number>(0);
+
+  useEffect(() => {
+    console.log("Effect dijalankan dengan trigger number 1");
+
+    return () => {
+      console.log("Effect dibersihkan dengan trigger number 1");
+    };
+  }, [number]);
+  // number di gunakan sebagai trigger
+
+  useEffect(() => {
+    console.log("Effect dijalankan dengan trigger number 2");
+
+    return () => {
+      console.log("Effect dibersihkan dengan trigger number 2");
+    };
+  }, []);
+
+  return (
+    <div>
+      <button
+        onClick={() => setNumber(number + 1)}
+        className="py-2 px-3 bg-green-700 text-white hover:bg-green-800 rounded-lg"
+      >
+        Add Number
+      </button>
+      <p className="text-3xl font-bold text-blue-600">{number}</p>
+    </div>
+  );
 };
 
 export default EffectStudyCase;
