@@ -1,5 +1,5 @@
-// import Combine from "../components/Combine";
-import ContextAuth from "../components/ContextAuth";
+import Combine from "../components/Combine";
+// import ContextAuth from "../components/ContextAuth";
 // import ContextTheme from "../components/ContextTheme";
 // import ReducerBasic from "../components/ReducerBasic";
 // import ReducerForm from "../components/ReducerForm";
@@ -11,8 +11,8 @@ function App() {
       {/* <ReducerBasic /> */}
       {/* <ReducerForm /> */}
       {/* <ContextTheme /> */}
-      <ContextAuth />
-      {/* <Combine /> */}
+      {/* <ContextAuth /> */}
+      <Combine />
     </>
   );
 }
