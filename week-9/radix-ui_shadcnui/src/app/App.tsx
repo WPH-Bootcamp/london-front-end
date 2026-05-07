@@ -1,3 +1,4 @@
+import CNexample from "../components/CNexample";
 import Dropdown from "../components/Dropdown";
 import DropdownRadix from "../components/DropdownRadix";
 import DropdownShadcn from "../components/DropdownShadcn";
@@ -14,7 +15,8 @@ function App() {
       {/* <ModalShadcn /> */}
       {/* <Dropdown /> */}
       {/* <DropdownRadix /> */}
-      <DropdownShadcn />
+      {/* <DropdownShadcn /> */}
+      {/* <CNexample /> */}
     </>
   );
 }

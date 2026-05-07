@@ -11,7 +11,7 @@ export default function DropdownShadcn() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button>Menu</Button>
+        <Button variant="outline">Menu</Button>
       </DropdownMenuTrigger>
 
       <DropdownMenuContent className="w-40">
