@@ -1,7 +1,14 @@
+import Modal from "../components/Modal";
+import ModalRadix from "../components/ModalRadix";
 import "./App.css";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      {/* <Modal /> */}
+      <ModalRadix />
+    </>
+  );
 }
 
 export default App;
