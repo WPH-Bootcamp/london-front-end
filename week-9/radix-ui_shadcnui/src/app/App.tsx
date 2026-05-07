@@ -1,3 +1,6 @@
+import Dropdown from "../components/Dropdown";
+import DropdownRadix from "../components/DropdownRadix";
+import DropdownShadcn from "../components/DropdownShadcn";
 import Modal from "../components/Modal";
 import ModalRadix from "../components/ModalRadix";
 import ModalShadcn from "../components/ModalShadcn";
@@ -8,7 +11,10 @@ function App() {
     <>
       {/* <Modal /> */}
       {/* <ModalRadix /> */}
-      <ModalShadcn />
+      {/* <ModalShadcn /> */}
+      {/* <Dropdown /> */}
+      {/* <DropdownRadix /> */}
+      <DropdownShadcn />
     </>
   );
 }
