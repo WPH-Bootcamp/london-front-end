@@ -9,8 +9,8 @@ function App() {
     <>
       {/* <Zod /> */}
       {/* <ReactHookForm /> */}
-      <ZodRHF />
-      {/* <FramerMotion /> */}
+      {/* <ZodRHF /> */}
+      <FramerMotion />
     </>
   );
 }
