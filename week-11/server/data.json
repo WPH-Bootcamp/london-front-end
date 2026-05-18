@@ -1,0 +1,94 @@
+{
+   "products": [
+      {
+         "id": "1",
+         "name": "Gaming Keyboard",
+         "category": "Electronics",
+         "brand": "Logitech",
+         "price": 120,
+         "stock": 25,
+         "warehouse": "Warehouse A"
+      },
+      {
+         "id": "2",
+         "name": "Wireless Mouse",
+         "category": "Electronics",
+         "brand": "Razer",
+         "price": 80,
+         "stock": 40,
+         "warehouse": "Warehouse B"
+      },
+      {
+         "id": "3",
+         "name": "Office Chair",
+         "category": "Furniture",
+         "brand": "IKEA",
+         "price": 250,
+         "stock": 15,
+         "warehouse": "Warehouse A"
+      },
+      {
+         "id": "4",
+         "name": "Mechanical Pencil",
+         "category": "Stationery",
+         "brand": "Faber-Castell",
+         "price": 5,
+         "stock": 120,
+         "warehouse": "Warehouse C"
+      },
+      {
+         "id": "5",
+         "name": "LED Monitor 24 Inch",
+         "category": "Electronics",
+         "brand": "Samsung",
+         "price": 220,
+         "stock": 18,
+         "warehouse": "Warehouse B"
+      },
+      {
+         "id": "6",
+         "name": "Standing Desk",
+         "category": "Furniture",
+         "brand": "Ergotec",
+         "price": 450,
+         "stock": 10,
+         "warehouse": "Warehouse A"
+      },
+      {
+         "id": "7",
+         "name": "USB-C Cable",
+         "category": "Accessories",
+         "brand": "Anker",
+         "price": 15,
+         "stock": 75,
+         "warehouse": "Warehouse C"
+      },
+      {
+         "id": "8",
+         "name": "External SSD 1TB",
+         "category": "Storage",
+         "brand": "SanDisk",
+         "price": 180,
+         "stock": 22,
+         "warehouse": "Warehouse B"
+      },
+      {
+         "id": "9",
+         "name": "Notebook A5",
+         "category": "Stationery",
+         "brand": "Moleskine",
+         "price": 12,
+         "stock": 95,
+         "warehouse": "Warehouse C"
+      },
+      {
+         "id": "10",
+         "name": "Printer Ink",
+         "category": "Office Supplies",
+         "brand": "HP",
+         "price": 35,
+         "stock": 30,
+         "warehouse": "Warehouse A"
+      }
+   ]
+}
