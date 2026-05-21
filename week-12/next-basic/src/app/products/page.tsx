@@ -13,9 +13,9 @@ export default async function ProductsPage() {
 
         <ProductList products={products} />
       </div>
-      <div>
+      {/* <div>
         <AddToCartButton></AddToCartButton>
-      </div>
+      </div> */}
     </>
   );
 }
