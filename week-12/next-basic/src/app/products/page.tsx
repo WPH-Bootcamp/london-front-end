@@ -1,21 +1,25 @@
-import AddToCartButton from "@/components/AddToCartButton";
+"use client";
+
 import ProductList from "@/components/ProductList";
 
-import { getProducts } from "@/services/product.service";
+import { useProducts } from "@/hooks/useProducts";
 
-export default async function ProductsPage() {
-  const products = await getProducts();
+export default function ProductsPage() {
+  const { data: products, isLoading, error } = useProducts();
+
+  if (isLoading) {
+    return <h1 className="text-3xl">Loading...</h1>;
+  }
+
+  if (error) {
+    return <h1 className="text-3xl">Error...</h1>;
+  }
 
   return (
-    <>
-      <div className="space-y-5">
-        <h1 className="text-4xl font-bold">Products</h1>
+    <div className="space-y-5">
+      <h1 className="text-4xl font-bold">Products</h1>
 
-        <ProductList products={products} />
-      </div>
-      {/* <div>
-        <AddToCartButton></AddToCartButton>
-      </div> */}
-    </>
+      <ProductList products={products || []} />
+    </div>
   );
 }
