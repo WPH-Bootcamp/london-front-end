@@ -2,7 +2,7 @@
 
 import ProductList from "@/components/ProductList";
 
-import { useProducts } from "@/hooks/useProducts";
+import useProducts from "@/hooks/useProducts";
 
 export default function ProductsPage() {
   const { data: products, isLoading, error } = useProducts();

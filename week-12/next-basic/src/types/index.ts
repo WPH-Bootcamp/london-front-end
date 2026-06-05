@@ -6,3 +6,10 @@ export interface Product {
    category: string
    image: string
 }
+
+export type User = {
+   id: number;
+   email: string;
+   username: string;
+   password: string;
+};
